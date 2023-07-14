@@ -18,6 +18,8 @@ public class DemoApplication implements CommandLineRunner {
 	public void run(String args[]) throws Exception
 	{
 
+		// LLModel.LIBRARY_SEARCH_PATH = "/Applications/gpt4all/lib/";
+
 		// Print statement when method is called
 		String prompt = "### Human:\nWhat is the meaning of life\n### Assistant:";
 
